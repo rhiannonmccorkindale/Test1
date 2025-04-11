@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ampi__IATI_Activity_XML_Error_Log__c</fullName>
+    <deprecated>false</deprecated>
+    <description>URL field to store the public link of the ContentVersion of the IATI Activities Standard XML's error log after validation. This is populated by code (IATI Activity classes).</description>
+    <label>IATI Activity XML Error Log</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Url</type>
+</CustomField>

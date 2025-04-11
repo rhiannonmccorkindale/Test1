@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ampi__IATI_Organization_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This picklist field specifies the organization type, per IATI reporting standards.</description>
+    <inlineHelpText>Select the organization type</inlineHelpText>
+    <label>IATI Organisation Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Government</fullName>
+                <default>false</default>
+                <label>Government</label>
+            </value>
+            <value>
+                <fullName>Local Government</fullName>
+                <default>false</default>
+                <label>Local Government</label>
+            </value>
+            <value>
+                <fullName>Other Public Sector</fullName>
+                <default>false</default>
+                <label>Other Public Sector</label>
+            </value>
+            <value>
+                <fullName>International NGO</fullName>
+                <default>false</default>
+                <label>International NGO</label>
+            </value>
+            <value>
+                <fullName>National NGO</fullName>
+                <default>false</default>
+                <label>National NGO</label>
+            </value>
+            <value>
+                <fullName>Regional NGO</fullName>
+                <default>false</default>
+                <label>Regional NGO</label>
+            </value>
+            <value>
+                <fullName>Partner Country based NGO</fullName>
+                <default>false</default>
+                <label>Partner Country based NGO</label>
+            </value>
+            <value>
+                <fullName>Public Private Partnership</fullName>
+                <default>false</default>
+                <label>Public Private Partnership</label>
+            </value>
+            <value>
+                <fullName>Multilateral</fullName>
+                <default>false</default>
+                <label>Multilateral</label>
+            </value>
+            <value>
+                <fullName>Foundation</fullName>
+                <default>false</default>
+                <label>Foundation</label>
+            </value>
+            <value>
+                <fullName>Private Sector</fullName>
+                <default>false</default>
+                <label>Private Sector</label>
+            </value>
+            <value>
+                <fullName>Private Sector in Provider Country</fullName>
+                <default>false</default>
+                <label>Private Sector in Provider Country</label>
+            </value>
+            <value>
+                <fullName>Private Sector in Aid Recipient Country</fullName>
+                <default>false</default>
+                <label>Private Sector in Aid Recipient Country</label>
+            </value>
+            <value>
+                <fullName>Private Sector in Third Country</fullName>
+                <default>false</default>
+                <label>Private Sector in Third Country</label>
+            </value>
+            <value>
+                <fullName>Academic, Training and Research</fullName>
+                <default>false</default>
+                <label>Academic, Training and Research</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

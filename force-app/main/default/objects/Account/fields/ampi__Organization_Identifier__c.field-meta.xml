@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ampi__Organization_Identifier__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Text field to specify the unique identifier of the organization, per IATI standards.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the IATI Organisation Identifier here. The Identifier has format [Namespace Code]-[Base Identifier]. It should not start or end with spaces or new lines and must not contain any of the symbols /, &amp;, | or ?.</inlineHelpText>
+    <label>Organisation Identifier</label>
+    <length>100</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

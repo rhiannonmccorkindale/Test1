@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ampi__IATI_Organization_XML_Link__c</fullName>
+    <deprecated>false</deprecated>
+    <description>URL field to store the public link of the ContentVersion containing the IATI Organization Standard XML file for this Account. This is populated by trigger IATIOrganizationXML_V1.</description>
+    <label>IATI Organisation XML Link</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Url</type>
+</CustomField>

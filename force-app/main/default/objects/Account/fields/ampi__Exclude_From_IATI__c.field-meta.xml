@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ampi__Exclude_From_IATI__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>This checkbox field indicates whether or not a particular Account record should be included in an IATI XML. If FALSE, the record cannot be used for IATI reporting.</description>
+    <inlineHelpText>Check this box if this information should be excluded from IATI</inlineHelpText>
+    <label>Exclude from IATI</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ampi__IATI_Organization_Type_Code__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The formula field returns the IATI code that corresponds to the organization type, as identified in ampi__IATI_Organization_Type__c. This value is printed in all @ref attributes for organizations in both the IATI Activity and IATI Organization XMLs.</description>
+    <externalId>false</externalId>
+    <formula>CASE(ampi__IATI_Organization_Type__c,
+"Government",10,
+"Local Government",11,
+"Other Public Sector",15, 
+"International NGO",21,
+"National NGO",22,
+"Regional NGO",23,
+"Partner Country based NGO",24,
+"Public Private Partnership",30,
+"Multilateral",40,
+"Foundation",60,
+"Private Sector",70,
+"Private Sector in Provider Country",71,
+"Private Sector in Aid Recipient Country",72,
+"Private Sector in Third Country",73,
+"Academic, Training and Research",80,
+"Other",90,90)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Identify the code that corresponds to the Organization Type</inlineHelpText>
+    <label>IATI Organisation Type Code</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>
